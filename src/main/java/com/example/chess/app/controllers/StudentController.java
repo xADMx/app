@@ -3,6 +3,7 @@ package com.example.chess.app.controllers;
 import com.example.chess.app.orm.Student;
 import com.example.chess.app.repos.SchoolRepo;
 import com.example.chess.app.repos.StudentRepo;
+import com.example.chess.app.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
@@ -20,15 +21,21 @@ import javax.validation.Valid;
 public class StudentController {
 
     @Autowired
-    private StudentRepo studentRepo;
+    private StudentService studentService;
 
     @Autowired
     private SchoolRepo schoolRepo;
 
     @GetMapping
     public String getStudent(Model model) {
-        model.addAttribute("students", studentRepo.findAll());
+        model.addAttribute("students", studentService.findAll());
         return "student/list";
+    }
+
+    @GetMapping("/rating/")
+    public String getStudentRating(Model model) {
+        model.addAttribute("rating", studentService.getRatingStudents());
+        return "student/listRating";
     }
 
     @PostMapping("/add")
@@ -39,7 +46,7 @@ public class StudentController {
             return "error";
         }
         try{
-            studentRepo.save(student);
+            studentService.save(student);
             return "redirect:/student/";
         } catch (DataIntegrityViolationException ex){
             model.addAttribute("errorMgs","Ошибка добавления: школа с таким названием уже существует.");
@@ -56,7 +63,7 @@ public class StudentController {
     @GetMapping("/delete/{id}")
     public String deleteStudent(@PathVariable ("id") Student student, Model model) {
         try {
-            studentRepo.delete(student);
+            studentService.delete(student);
             return "redirect:/student/";
         } catch (Exception ex){
             model.addAttribute("errorMgs","Ошибка удаления.");

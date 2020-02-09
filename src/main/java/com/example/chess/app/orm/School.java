@@ -1,6 +1,7 @@
 package com.example.chess.app.orm;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 import java.util.Set;
 
@@ -12,6 +13,7 @@ public class School {
     private Integer id;
 
     @Column(nullable = false, unique = true)
+    @NotNull(message = "Поле название школы должно быть заполнено")
     private String nameSchool;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "school")
@@ -20,7 +22,7 @@ public class School {
     public School() {
     }
 
-    public School(String nameSchool) {
+    public School(@NotNull(message = "Поле название школы должно быть заполнено") String nameSchool) {
         this.nameSchool = nameSchool;
     }
 

@@ -27,14 +27,15 @@ public class Student {
     @NotNull(message = "Необходимо выбрать школу.")
     private School school;
 
-    private int ratingAlo;
+    private int ratingAlo = 1400;
 
     public Student() {
     }
 
-    public Student(String fio, LocalDate birthday) {
+    public Student(@NotNull(message = "Поле ФИО не может быть пустым") String fio, @NotNull(message = "Поле дата рождения не может быть пустым.") LocalDate birthday, @NotNull(message = "Необходимо выбрать школу.") School school) {
         this.fio = fio;
         this.birthday = birthday;
+        this.school = school;
     }
 
     public School getSchool() {
