@@ -8,6 +8,7 @@ import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 import java.util.Objects;
 
+@NamedQuery(name = "randomStudents", query = "select s FROM Student s ORDER BY RAND()")
 @Entity
 public class Student {
 
@@ -91,4 +92,13 @@ public class Student {
         return Objects.hash(id);
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", fio='" + fio + '\'' +
+                ", birthday=" + birthday +
+                ", ratingAlo=" + ratingAlo +
+                '}';
+    }
 }

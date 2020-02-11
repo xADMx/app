@@ -11,6 +11,8 @@ import org.springframework.cache.annotation.Caching;
 import org.springframework.data.util.Pair;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Random;
@@ -21,6 +23,9 @@ public class StudentService {
 
     @Autowired
     private StudentRepo studentRepo;
+
+    @Autowired
+    EntityManager em;
 
 
     @Cacheable(cacheNames="Rating",cacheManager = "MyCacheManager")
@@ -35,8 +40,9 @@ public class StudentService {
     @Monitoring("RandomTestStudents")
     public Pair<Student, Student> getPairRandomStudent(){
         Random random = new Random();
-        List<Student> sutends = studentRepo.findAll().stream().sorted((o1, o2) -> random.nextInt(2) - 1).limit(2).collect(Collectors.toList());
-
+        Query randomStudents = em.createNamedQuery("randomStudents", Student.class);
+        randomStudents.setMaxResults(2);
+        List<Student> sutends = randomStudents.getResultList();
         if(sutends.size() > 1){
             return Pair.of(sutends.get(0), sutends.get(1));
         } else {

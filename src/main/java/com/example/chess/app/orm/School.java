@@ -55,4 +55,11 @@ public class School {
         return Objects.hash(id);
     }
 
+    @Override
+    public String toString() {
+        return "School{" +
+                "id=" + id +
+                ", nameSchool='" + nameSchool + '\'' +
+                '}';
+    }
 }
