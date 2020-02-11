@@ -3,6 +3,7 @@ package com.example.chess.app.service;
 import com.example.chess.app.orm.DTO.RatingTableDTO;
 import com.example.chess.app.orm.Student;
 import com.example.chess.app.repos.StudentRepo;
+import org.my.Monitoring;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
@@ -31,6 +32,7 @@ public class StudentService {
         return studentRepo.findAll();
     }
 
+    @Monitoring("RandomTestStudents")
     public Pair<Student, Student> getPairRandomStudent(){
         Random random = new Random();
         List<Student> sutends = studentRepo.findAll().stream().sorted((o1, o2) -> random.nextInt(2) - 1).limit(2).collect(Collectors.toList());
@@ -42,6 +44,7 @@ public class StudentService {
         }
     }
 
+    @Monitoring("SaveChangeStudents")
     public Student save(Student s){
         return studentRepo.save(s);
     }

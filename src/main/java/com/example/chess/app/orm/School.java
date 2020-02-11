@@ -54,4 +54,5 @@ public class School {
     public int hashCode() {
         return Objects.hash(id);
     }
+
 }

@@ -1,7 +1,6 @@
 <#import '../index.ftl' as i>
 
 <@i.page>
-<a href="/student/add"> Добавить </a>
   <table border="1">
    <caption>Список студентов</caption>
    <tr>

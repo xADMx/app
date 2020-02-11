@@ -4,7 +4,7 @@ import com.example.chess.app.orm.School;
 import com.example.chess.app.orm.Student;
 import com.example.chess.app.repos.SchoolRepo;
 import com.example.chess.app.repos.StudentRepo;
-import com.example.chess.app.service.StudentService;
+import org.my.Monitoring;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,6 +23,7 @@ public class StartController {
     @Autowired
     private SchoolRepo schoolRepo;
 
+    @Monitoring("LoadDATATest")
     @GetMapping
     public String getSchool(Model model) {
 
