@@ -37,7 +37,7 @@ public class ScheduledTaskGame {
             }
 
             pairRandomStudent.getSecond().setRatingAlo(ratingAloSecond);
-            pairRandomStudent.getSecond().setRatingAlo(ratingAloFirst);
+            pairRandomStudent.getFirst().setRatingAlo(ratingAloFirst);
 
             studentService.save(pairRandomStudent.getFirst());
             studentService.save(pairRandomStudent.getSecond());
