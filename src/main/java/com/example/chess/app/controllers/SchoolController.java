@@ -15,6 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.validation.Valid;
 
+/**
+ * Контроллер школы
+ */
 @Controller
 @RequestMapping(path = "/school/")
 public class SchoolController {
@@ -22,12 +25,24 @@ public class SchoolController {
     @Autowired
     private SchoolService schoolService;
 
+    /**
+     * Метод вывода списка школ
+     * @param model
+     * @return
+     */
     @GetMapping
     public String getSchool(Model model) {
         model.addAttribute("schools", schoolService.findAll());
         return "school/list";
     }
 
+    /**
+     * Метод добавления школы
+     * @param school
+     * @param bindingResult
+     * @param model
+     * @return
+     */
     @PostMapping("/add")
     public String addSchool(@Valid School school, BindingResult bindingResult, Model model) {
 
@@ -42,11 +57,22 @@ public class SchoolController {
         return "redirect:/school/";
     }
 
+    /**
+     * Метод вывода формы для добавления школы.
+     * @param model
+     * @return
+     */
     @GetMapping("/add")
     public String addSchool(Model model) {
         return "school/add";
     }
 
+    /**
+     * Метод удаления школы.
+     * @param school
+     * @param model
+     * @return
+     */
     @GetMapping("/delete/{id}")
     public String deleteSchool(@PathVariable ("id") School school, Model model) {
         try {

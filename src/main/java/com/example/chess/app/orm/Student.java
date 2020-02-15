@@ -8,6 +8,10 @@ import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 import java.util.Objects;
 
+/**
+ * Сущность представления учеников.
+* {@link NamedQuery} - "randomStudents" - именнованный запрос HQL для получения случайно отсортированных записей.
+ */
 @NamedQuery(name = "randomStudents", query = "select s FROM Student s ORDER BY RAND()")
 @Entity
 public class Student {

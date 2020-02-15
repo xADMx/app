@@ -37,6 +37,10 @@ public class StudentService {
         return studentRepo.findAll();
     }
 
+    /**
+     * Метод для возврата двух случайных записей учеников
+     * @return
+     */
     @Monitoring("RandomTestStudents")
     public Pair<Student, Student> getPairRandomStudent(){
         Query randomStudents = em.createNamedQuery("randomStudents", Student.class);

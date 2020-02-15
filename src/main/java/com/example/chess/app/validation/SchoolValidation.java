@@ -3,13 +3,14 @@ package com.example.chess.app.validation;
 import com.example.chess.app.orm.School;
 import com.example.chess.app.orm.Student;
 import com.example.chess.app.repos.SchoolRepo;
-import com.example.chess.app.repos.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.Errors;
-import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
+/**
+ * Владитор сущности школа для проверки на уникальность поля nameSchool в БД.
+ */
 @Service
 public class SchoolValidation implements Validator {
 

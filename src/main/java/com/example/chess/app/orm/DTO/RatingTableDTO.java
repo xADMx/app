@@ -6,6 +6,9 @@ import com.example.chess.app.orm.Student;
 import java.time.LocalDateTime;
 import java.util.List;
 
+/**
+ * DTO для вывода рейтинга учеников.
+ */
 public class RatingTableDTO {
     private LocalDateTime localDateTime;
     private List<Student> students;

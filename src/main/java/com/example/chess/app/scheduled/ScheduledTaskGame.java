@@ -1,6 +1,5 @@
 package com.example.chess.app.scheduled;
 
-import com.example.chess.app.controllers.ControllerUtils;
 import com.example.chess.app.orm.Student;
 import com.example.chess.app.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +9,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
+/**
+ * Компонент для расчета коэф. Эло, запуск каждый раз после окончания выполения метода с перерывом в 30 сек.
+ */
 @Component
 public class ScheduledTaskGame {
 

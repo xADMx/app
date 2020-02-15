@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
 
+/**
+ * Сервис по работе с сущностью школа
+ */
 @Service
 public class SchoolService {
     @Autowired
@@ -15,6 +18,12 @@ public class SchoolService {
     @Autowired
     private SchoolValidation schoolValidation;
 
+    /**
+     * Метод для сохранения сущности школы с доп. проверкой {@link SchoolValidation}
+     * @param school
+     * @param bindingResult
+     * @return
+     */
     public School save(School school, BindingResult bindingResult){
         schoolValidation.validate(school, bindingResult);
         if(!bindingResult.hasErrors()) {

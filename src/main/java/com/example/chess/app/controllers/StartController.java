@@ -18,6 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.time.LocalDate;
 
+/**
+ * Контроллер для добавления тестового списка данных (Школ и учеников)
+ */
 @Controller
 @RequestMapping("/start/test/")
 public class StartController {
@@ -27,6 +30,7 @@ public class StartController {
 
     @Autowired
     private SchoolService schoolService;
+
 
     @Monitoring("LoadDATATest")
     @GetMapping

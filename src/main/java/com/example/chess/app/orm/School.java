@@ -5,6 +5,9 @@ import javax.validation.constraints.NotNull;
 import java.util.Objects;
 import java.util.Set;
 
+/**
+ * Сущность представления Школ
+ */
 @Entity
 public class School {
 
