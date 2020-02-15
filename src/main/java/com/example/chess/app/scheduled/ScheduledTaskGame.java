@@ -39,6 +39,7 @@ public class ScheduledTaskGame {
             pairRandomStudent.getSecond().setRatingAlo(ratingAloSecond);
             pairRandomStudent.getFirst().setRatingAlo(ratingAloFirst);
 
+
             studentService.save(pairRandomStudent.getFirst());
             studentService.save(pairRandomStudent.getSecond());
         }
@@ -50,7 +51,7 @@ public class ScheduledTaskGame {
     }
 
     private double getEa(Student student1, Student student2){
-        return (double) 1 / (1 + 10 ^ ((student1.getRatingAlo() - student2.getRatingAlo()) / 400));
+        return 1 / (1 + Math.pow(10, ((student1.getRatingAlo() - student2.getRatingAlo()) / 400)));
     }
 
 }
