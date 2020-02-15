@@ -2,6 +2,7 @@ package com.example.chess.app.controllers;
 
 import com.example.chess.app.orm.School;
 import com.example.chess.app.repos.SchoolRepo;
+import com.example.chess.app.service.SchoolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
@@ -19,28 +20,26 @@ import javax.validation.Valid;
 public class SchoolController {
 
     @Autowired
-    private SchoolRepo schoolRepo;
+    private SchoolService schoolService;
 
     @GetMapping
     public String getSchool(Model model) {
-        model.addAttribute("schools", schoolRepo.findAll());
+        model.addAttribute("schools", schoolService.findAll());
         return "school/list";
     }
 
     @PostMapping("/add")
     public String addSchool(@Valid School school, BindingResult bindingResult, Model model) {
-        if(bindingResult.hasErrors()){
+
+        school = schoolService.save(school, bindingResult);
+
+        if(school == null){
             model.addAttribute("errors", ControllerUtils.getErrors(bindingResult));
-            model.addAttribute("url", "school/add");
-            return "error";
+            model.addAttribute("url", "/school/add");
+            return "myError";
         }
-        try{
-            schoolRepo.save(school);
-            return "redirect:/school/";
-        } catch (DataIntegrityViolationException ex){
-            model.addAttribute("errorMgs","Ошибка добавления: школа с таким названием уже существует.");
-            return "error";
-        }
+
+        return "redirect:/school/";
     }
 
     @GetMapping("/add")
@@ -51,11 +50,11 @@ public class SchoolController {
     @GetMapping("/delete/{id}")
     public String deleteSchool(@PathVariable ("id") School school, Model model) {
         try {
-            schoolRepo.delete(school);
+            schoolService.delete(school);
             return "redirect:/school/";
         } catch (Exception ex){
             model.addAttribute("errorMgs","Ошибка удаления.");
-            return "error";
+            return "myError";
         }
     }
 

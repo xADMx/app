@@ -746,3 +746,274 @@ freemarker.core.InvalidReferenceException: [... Exception message was already pr
 15 февр. 2020 10:02:25,022 http-nio-9000-exec-8 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
 15 февр. 2020 10:02:25,022 http-nio-9000-exec-8 - TemplateLoader.findTemplateSource("index.ftl"): Found
 15 февр. 2020 10:02:25,022 http-nio-9000-exec-8 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.
+15 февр. 2020 11:41:18,343 http-nio-9000-exec-1 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:41:18,358 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 11:41:18,361 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 11:41:18,361 http-nio-9000-exec-1 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 11:41:50,232 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 11:41:50,234 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 11:41:50,234 http-nio-9000-exec-3 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 11:41:52,500 http-nio-9000-exec-4 - "error.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 11:42:08,791 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 11:42:08,792 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 11:42:08,792 http-nio-9000-exec-6 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 11:49:05,396 http-nio-9000-exec-1 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:49:05,400 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 11:49:05,403 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 11:49:05,403 http-nio-9000-exec-1 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 11:51:05,439 http-nio-9000-exec-4 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:51:05,443 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 11:51:05,446 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 11:51:05,447 http-nio-9000-exec-4 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 11:51:05,544 http-nio-9000-exec-4 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 11:51:05,559 http-nio-9000-exec-4 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:51:05,559 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 11:51:05,560 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 11:51:05,560 http-nio-9000-exec-4 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 11:51:32,156 http-nio-9000-exec-5 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:51:32,158 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 11:51:32,162 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 11:51:32,165 http-nio-9000-exec-5 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 11:52:47,566 http-nio-9000-exec-3 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:52:47,572 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 11:52:47,575 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 11:52:47,575 http-nio-9000-exec-3 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 11:52:47,736 http-nio-9000-exec-3 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 11:52:47,765 http-nio-9000-exec-3 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:52:47,766 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 11:52:47,767 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 11:52:47,767 http-nio-9000-exec-3 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 11:52:49,511 http-nio-9000-exec-1 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 11:52:49,512 http-nio-9000-exec-1 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 11:52:49,512 http-nio-9000-exec-1 - "index.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 11:53:02,630 http-nio-9000-exec-6 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:53:02,631 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 11:53:02,632 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 11:53:02,632 http-nio-9000-exec-6 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 11:55:01,319 http-nio-9000-exec-8 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 11:55:01,321 http-nio-9000-exec-8 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 11:55:01,321 http-nio-9000-exec-8 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 11:55:31,860 http-nio-9000-exec-3 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:55:31,862 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 11:55:31,864 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 11:55:31,865 http-nio-9000-exec-3 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 11:55:31,961 http-nio-9000-exec-3 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 11:55:31,975 http-nio-9000-exec-3 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:55:31,976 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 11:55:31,977 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 11:55:31,977 http-nio-9000-exec-3 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 11:55:53,311 http-nio-9000-exec-5 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 11:55:53,312 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 11:55:53,313 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 11:55:53,313 http-nio-9000-exec-5 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 12:06:16,110 http-nio-9000-exec-7 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:06:16,111 http-nio-9000-exec-7 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:06:16,111 http-nio-9000-exec-7 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 12:06:27,150 http-nio-9000-exec-9 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:06:27,150 http-nio-9000-exec-9 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:06:27,150 http-nio-9000-exec-9 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 12:07:15,637 http-nio-9000-exec-2 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:07:15,641 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:07:15,643 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:07:15,644 http-nio-9000-exec-2 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:07:15,736 http-nio-9000-exec-2 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:07:15,763 http-nio-9000-exec-2 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:07:15,763 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:07:15,764 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:07:15,764 http-nio-9000-exec-2 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:07:30,126 http-nio-9000-exec-5 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:07:30,127 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:07:30,127 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:07:30,128 http-nio-9000-exec-5 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 12:10:12,386 http-nio-9000-exec-7 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:10:12,387 http-nio-9000-exec-7 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:10:12,387 http-nio-9000-exec-7 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 12:10:33,573 http-nio-9000-exec-2 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:10:33,578 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:10:33,580 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:10:33,581 http-nio-9000-exec-2 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:10:33,684 http-nio-9000-exec-2 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:10:33,698 http-nio-9000-exec-2 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:10:33,699 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:10:33,699 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:10:33,699 http-nio-9000-exec-2 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:10:46,622 http-nio-9000-exec-3 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:10:46,624 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:10:46,625 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:10:46,625 http-nio-9000-exec-3 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 12:12:52,870 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:12:52,871 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:12:52,871 http-nio-9000-exec-5 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 12:13:18,645 http-nio-9000-exec-1 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:13:18,653 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:13:18,659 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:13:18,659 http-nio-9000-exec-1 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 12:14:06,697 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:14:06,698 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:14:06,698 http-nio-9000-exec-4 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 12:18:50,799 http-nio-9000-exec-2 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:18:50,803 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:18:50,806 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:18:50,807 http-nio-9000-exec-2 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:18:50,910 http-nio-9000-exec-2 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:18:50,927 http-nio-9000-exec-2 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:18:50,928 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:18:50,929 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:18:50,930 http-nio-9000-exec-2 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:19:10,287 http-nio-9000-exec-3 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:19:10,288 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:19:10,289 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:19:10,289 http-nio-9000-exec-3 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 12:21:02,665 http-nio-9000-exec-1 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:21:02,669 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:21:02,673 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:21:02,674 http-nio-9000-exec-1 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:21:02,773 http-nio-9000-exec-1 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:21:02,784 http-nio-9000-exec-1 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:21:02,785 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:21:02,786 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:21:02,786 http-nio-9000-exec-1 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:21:26,322 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:21:26,323 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:21:26,323 http-nio-9000-exec-5 - "school/list.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\school\list.ftl hasn't changed.
+15 февр. 2020 12:21:26,323 http-nio-9000-exec-5 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:21:26,324 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:21:26,324 http-nio-9000-exec-5 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:21:26,324 http-nio-9000-exec-5 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.
+15 февр. 2020 12:23:51,609 http-nio-9000-exec-2 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:23:51,616 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:23:51,618 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:23:51,620 http-nio-9000-exec-2 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:23:51,729 http-nio-9000-exec-2 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:23:51,751 http-nio-9000-exec-2 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:23:51,755 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:23:51,756 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:23:51,756 http-nio-9000-exec-2 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:24:26,007 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:24:26,008 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:24:26,008 http-nio-9000-exec-6 - "school/list.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\school\list.ftl hasn't changed.
+15 февр. 2020 12:24:26,010 http-nio-9000-exec-6 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:24:26,011 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:24:26,012 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:24:26,012 http-nio-9000-exec-6 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.
+15 февр. 2020 12:24:44,927 http-nio-9000-exec-1 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:24:44,932 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:24:44,935 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:24:44,935 http-nio-9000-exec-1 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:24:45,051 http-nio-9000-exec-1 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:24:45,068 http-nio-9000-exec-1 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:24:45,068 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:24:45,069 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:24:45,069 http-nio-9000-exec-1 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:24:50,331 http-nio-9000-exec-3 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:24:50,333 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:24:50,335 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:24:50,335 http-nio-9000-exec-3 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 12:25:15,337 http-nio-9000-exec-8 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:25:15,338 http-nio-9000-exec-8 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:25:15,338 http-nio-9000-exec-8 - "school/list.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\school\list.ftl hasn't changed.
+15 февр. 2020 12:25:15,339 http-nio-9000-exec-8 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:25:15,339 http-nio-9000-exec-8 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:25:15,340 http-nio-9000-exec-8 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:25:15,340 http-nio-9000-exec-8 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.
+15 февр. 2020 12:25:57,942 http-nio-9000-exec-9 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:25:57,942 http-nio-9000-exec-9 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:25:57,943 http-nio-9000-exec-9 - "school/list.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\school\list.ftl hasn't changed.
+15 февр. 2020 12:25:57,943 http-nio-9000-exec-9 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:25:57,943 http-nio-9000-exec-9 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:25:57,944 http-nio-9000-exec-9 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:25:57,944 http-nio-9000-exec-9 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.
+15 февр. 2020 12:25:59,450 http-nio-9000-exec-10 - Couldn't find template in cache for "school/add.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:25:59,451 http-nio-9000-exec-10 - TemplateLoader.findTemplateSource("school/add_ru.ftl"): Not found
+15 февр. 2020 12:25:59,453 http-nio-9000-exec-10 - TemplateLoader.findTemplateSource("school/add.ftl"): Found
+15 февр. 2020 12:25:59,453 http-nio-9000-exec-10 - Loading template for "school/add.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\add.ftl"
+15 февр. 2020 12:25:59,459 http-nio-9000-exec-10 - "school/add.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:25:59,460 http-nio-9000-exec-10 - "index.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:26:02,079 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:26:02,079 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:26:02,080 http-nio-9000-exec-2 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 12:27:21,469 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:27:21,470 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:27:21,470 http-nio-9000-exec-3 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 12:28:48,093 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:28:48,094 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:28:48,094 http-nio-9000-exec-4 - "error.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\error.ftl hasn't changed.
+15 февр. 2020 12:29:07,571 http-nio-9000-exec-2 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:29:07,576 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:29:07,580 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:29:07,580 http-nio-9000-exec-2 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:29:07,707 http-nio-9000-exec-2 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:29:07,726 http-nio-9000-exec-2 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:29:07,727 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:29:07,728 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:29:07,728 http-nio-9000-exec-2 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:29:11,515 http-nio-9000-exec-3 - Couldn't find template in cache for "school/add.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:29:11,515 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/add_ru.ftl"): Not found
+15 февр. 2020 12:29:11,516 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/add.ftl"): Found
+15 февр. 2020 12:29:11,516 http-nio-9000-exec-3 - Loading template for "school/add.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\add.ftl"
+15 февр. 2020 12:29:11,522 http-nio-9000-exec-3 - "school/add.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:29:11,523 http-nio-9000-exec-3 - "index.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:29:40,862 http-nio-9000-exec-4 - Couldn't find template in cache for "error.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:29:40,863 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("error_ru.ftl"): Not found
+15 февр. 2020 12:29:40,863 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("error.ftl"): Found
+15 февр. 2020 12:29:40,863 http-nio-9000-exec-4 - Loading template for "error.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\error.ftl"
+15 февр. 2020 12:31:18,982 http-nio-9000-exec-1 - Couldn't find template in cache for "school/add.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:31:18,985 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("school/add_ru.ftl"): Not found
+15 февр. 2020 12:31:18,988 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("school/add.ftl"): Found
+15 февр. 2020 12:31:18,989 http-nio-9000-exec-1 - Loading template for "school/add.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\add.ftl"
+15 февр. 2020 12:31:19,096 http-nio-9000-exec-1 - "school/add.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:31:19,125 http-nio-9000-exec-1 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:31:19,127 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:31:19,128 http-nio-9000-exec-1 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:31:19,128 http-nio-9000-exec-1 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:31:28,235 http-nio-9000-exec-3 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:31:28,236 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:31:28,236 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:31:28,236 http-nio-9000-exec-3 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:31:28,246 http-nio-9000-exec-3 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:31:28,247 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:31:28,247 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:31:28,247 http-nio-9000-exec-3 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.
+15 февр. 2020 12:31:31,345 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("school/add_ru.ftl"): Not found
+15 февр. 2020 12:31:31,346 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("school/add.ftl"): Found
+15 февр. 2020 12:31:31,346 http-nio-9000-exec-6 - "school/add.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\school\add.ftl hasn't changed.
+15 февр. 2020 12:31:31,347 http-nio-9000-exec-6 - "school/add.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:31:31,347 http-nio-9000-exec-6 - "index.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:31:38,014 http-nio-9000-exec-7 - Couldn't find template in cache for "myError.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:31:38,016 http-nio-9000-exec-7 - TemplateLoader.findTemplateSource("myError_ru.ftl"): Not found
+15 февр. 2020 12:31:38,017 http-nio-9000-exec-7 - TemplateLoader.findTemplateSource("myError.ftl"): Found
+15 февр. 2020 12:31:38,017 http-nio-9000-exec-7 - Loading template for "myError.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\myError.ftl"
+15 февр. 2020 12:31:38,025 http-nio-9000-exec-7 - "myError.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:31:38,025 http-nio-9000-exec-7 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:31:38,026 http-nio-9000-exec-7 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:31:38,026 http-nio-9000-exec-7 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.
+15 февр. 2020 12:32:56,795 http-nio-9000-exec-2 - Couldn't find template in cache for "school/list.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:32:56,800 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list_ru.ftl"): Not found
+15 февр. 2020 12:32:56,804 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("school/list.ftl"): Found
+15 февр. 2020 12:32:56,804 http-nio-9000-exec-2 - Loading template for "school/list.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\list.ftl"
+15 февр. 2020 12:32:56,914 http-nio-9000-exec-2 - "school/list.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:32:56,934 http-nio-9000-exec-2 - Couldn't find template in cache for "index.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:32:56,935 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:32:56,937 http-nio-9000-exec-2 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:32:56,937 http-nio-9000-exec-2 - Loading template for "index.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\index.ftl"
+15 февр. 2020 12:33:00,109 http-nio-9000-exec-3 - Couldn't find template in cache for "school/add.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:33:00,110 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/add_ru.ftl"): Not found
+15 февр. 2020 12:33:00,111 http-nio-9000-exec-3 - TemplateLoader.findTemplateSource("school/add.ftl"): Found
+15 февр. 2020 12:33:00,111 http-nio-9000-exec-3 - Loading template for "school/add.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\school\\add.ftl"
+15 февр. 2020 12:33:00,118 http-nio-9000-exec-3 - "school/add.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:33:00,118 http-nio-9000-exec-3 - "index.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:33:04,911 http-nio-9000-exec-4 - Couldn't find template in cache for "myError.ftl"("ru", UTF-8, parsed); will try to load it.
+15 февр. 2020 12:33:04,912 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("myError_ru.ftl"): Not found
+15 февр. 2020 12:33:04,912 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("myError.ftl"): Found
+15 февр. 2020 12:33:04,913 http-nio-9000-exec-4 - Loading template for "myError.ftl"("ru", UTF-8, parsed) from "C:\\Users\\kozlo\\IdeaProjects\\app\\target\\classes\\templates\\myError.ftl"
+15 февр. 2020 12:33:04,915 http-nio-9000-exec-4 - "myError.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:33:04,916 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:33:04,916 http-nio-9000-exec-4 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:33:04,916 http-nio-9000-exec-4 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.
+15 февр. 2020 12:33:10,214 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("school/add_ru.ftl"): Not found
+15 февр. 2020 12:33:10,215 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("school/add.ftl"): Found
+15 февр. 2020 12:33:10,215 http-nio-9000-exec-6 - "school/add.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\school\add.ftl hasn't changed.
+15 февр. 2020 12:33:10,217 http-nio-9000-exec-6 - "school/add.ftl"("ru", UTF-8, parsed) cached copy not yet stale; using cached.
+15 февр. 2020 12:33:10,217 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("index_ru.ftl"): Not found
+15 февр. 2020 12:33:10,218 http-nio-9000-exec-6 - TemplateLoader.findTemplateSource("index.ftl"): Found
+15 февр. 2020 12:33:10,218 http-nio-9000-exec-6 - "index.ftl"("ru", UTF-8, parsed): using cached since C:\Users\kozlo\IdeaProjects\app\target\classes\templates\index.ftl hasn't changed.

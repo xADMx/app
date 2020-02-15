@@ -14,6 +14,11 @@ public class ControllerUtils {
     public static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MMM-yyyy");
     public static final DateTimeFormatter formatterTime = DateTimeFormatter.ofPattern("d-MMM-yyyy HH:mm:ss");
 
+    /**
+     * Трансформация полей валидатора в Map.
+     * @param bindingResult - результат отработки валидатора.
+     * @return
+     */
     static Map<String, String> getErrors(BindingResult bindingResult) {
         return bindingResult.getFieldErrors().stream().collect(Collectors.toMap(
                 fieldError -> fieldError.getField() + "Error",

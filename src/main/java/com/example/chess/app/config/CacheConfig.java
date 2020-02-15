@@ -14,6 +14,11 @@ import java.util.concurrent.TimeUnit;
 @Configuration
 public class CacheConfig {
 
+
+    /**
+     * Инициализируем кэш в виде HashMap, который будет обнавлять информацию по истечению 5 минут.
+     * @return CacheManager
+     */
     @Bean("MyCacheManager")
     public CacheManager cacheManager() {
         return new ConcurrentMapCacheManager() {

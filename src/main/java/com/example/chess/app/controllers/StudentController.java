@@ -3,6 +3,7 @@ package com.example.chess.app.controllers;
 import com.example.chess.app.orm.Student;
 import com.example.chess.app.repos.SchoolRepo;
 import com.example.chess.app.repos.StudentRepo;
+import com.example.chess.app.service.SchoolService;
 import com.example.chess.app.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -23,7 +24,7 @@ public class StudentController {
     private StudentService studentService;
 
     @Autowired
-    private SchoolRepo schoolRepo;
+    private SchoolService schoolService;
 
     @GetMapping
     public String getStudent(Model model) {
@@ -42,21 +43,21 @@ public class StudentController {
     public String addStudent(@Valid Student student, BindingResult bindingResult, Model model) {
         if(bindingResult.hasErrors()){
             model.addAttribute("errors", ControllerUtils.getErrors(bindingResult));
-            model.addAttribute("url", "student/add");
-            return "error";
+            model.addAttribute("url", "/student/add");
+            return "myError";
         }
         try{
             studentService.save(student);
             return "redirect:/student/";
         } catch (DataIntegrityViolationException ex){
             model.addAttribute("errorMgs","Ошибка добавления: школа с таким названием уже существует.");
-            return "error";
+            return "myError";
         }
     }
 
     @GetMapping("/add")
     public String addStudent(Model model) {
-        model.addAttribute("schools", schoolRepo.findAll());
+        model.addAttribute("schools", schoolService.findAll());
         return "student/add";
     }
 
@@ -67,7 +68,7 @@ public class StudentController {
             return "redirect:/student/";
         } catch (Exception ex){
             model.addAttribute("errorMgs","Ошибка удаления.");
-            return "error";
+            return "myError";
         }
     }
 

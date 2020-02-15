@@ -39,7 +39,6 @@ public class StudentService {
 
     @Monitoring("RandomTestStudents")
     public Pair<Student, Student> getPairRandomStudent(){
-        Random random = new Random();
         Query randomStudents = em.createNamedQuery("randomStudents", Student.class);
         randomStudents.setMaxResults(2);
         List<Student> sutends = randomStudents.getResultList();
